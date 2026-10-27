@@ -1,0 +1,161 @@
+{
+  "source": "https://app.tany.in/",
+  "assets": [
+    {
+      "path": "/brand/tanymotos-icon.svg",
+      "sha256": "1aa6fe8e8671df03bc5fab429c4baf4770c38b1c5b91d0eccd3035d281ddbcdc",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "path": "/brand/tanymotos-wordmark.svg",
+      "sha256": "73c2d496e4125b94b2ce0ddd200cd0823fbedc7df1765c63fd308143cda1f496",
+      "width": 251,
+      "height": 41
+    },
+    {
+      "path": "/brand/tanyeats-icon.svg",
+      "sha256": "8d16b635371662e99f1b34f2f345ec063dca496788704cb5bf80dc54ac4ef5b2",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "path": "/brand/tanyeats-wordmark.svg",
+      "sha256": "7c6dc8b57a92de44daf32b98ddeeaaa30a7b8f2814ebf172a12e703e8bb599c7",
+      "width": 207,
+      "height": 41
+    },
+    {
+      "path": "/brand/tanycabs-icon.svg",
+      "sha256": "24989eec260bbe53d2d9bb3231012636c063fe67892e8591f2e16228d4f7d536",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "path": "/brand/tanycabs-wordmark.svg",
+      "sha256": "3292e022d342ddcf11642845a8b969c9d91253d770b1e2f1d9867c5a88932a20",
+      "width": 217,
+      "height": 44
+    },
+    {
+      "path": "/brand/tanyecom-icon.svg",
+      "sha256": "772231507ed6ea4883b0a987bdd63e6cb3873962ab512f283625f837d149808b",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "path": "/brand/tanyecom-wordmark.svg",
+      "sha256": "9e8592322166ce579567cff78ee4c00977eb65936fcb34b7312b2906bb9bfcde",
+      "width": 231,
+      "height": 41
+    },
+    {
+      "path": "/brand/tanyexpert-icon.svg",
+      "sha256": "a1bfc90387f85615c9c23bb06392d968569e252d11ca45ee56cd61fb04da08db",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "path": "/brand/tanyexpert-wordmark.svg",
+      "sha256": "0644fc2955e535595fdbfc76a813c7f2fb256d01ac097bb1ba991d74bb2302b5",
+      "width": 259,
+      "height": 41
+    },
+    {
+      "path": "/brand/tanygaming-icon.svg",
+      "sha256": "d200c78285fd37a3752d911bb3d6d362f91f451ad46e94e4bada971dbe3d575d",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "path": "/brand/tanygaming-wordmark.svg",
+      "sha256": "3c8f3a5b1999b0db482756a8cd2f6d499f52438d9e83f4f5bf423f1dac73bc80",
+      "width": 277,
+      "height": 44
+    },
+    {
+      "path": "/brand/tanygarage-icon.svg",
+      "sha256": "9d83707ae7417c78d6e1ec107c1aedd88f4600585dd87be0d820ca55508a915d",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "path": "/brand/tanygarage-wordmark.svg",
+      "sha256": "65d56cc7347413c298ec7a6c23cde9fa8fdcc4eed04de5f4ace805e2eb65ef09",
+      "width": 268,
+      "height": 41
+    },
+    {
+      "path": "/brand/tanymeat-icon.svg",
+      "sha256": "8b47184a9dac675cc4804be2e251ea53dab785b6ecec969b66f1c3919cb45f3d",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "path": "/brand/tanymeat-wordmark.svg",
+      "sha256": "b6f4e686a437288b04f08d05503ae8210bcc4d14d3486eb1ea1d108c0cba64f0",
+      "width": 222,
+      "height": 41
+    },
+    {
+      "path": "/brand/tanymeds-icon.svg",
+      "sha256": "f5f920113dd9cde240ab1712aba2eab873b97795103275e2028c813e8c97c8e2",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "path": "/brand/tanymeds-wordmark.svg",
+      "sha256": "361ce27e0abff1c7ace8cbe88d5e76240ac33a9bbdd9707d85136bf6cc6d002d",
+      "width": 230,
+      "height": 44
+    },
+    {
+      "path": "/brand/tanyretail-icon.svg",
+      "sha256": "1119261caed6f7113764028f9c65a284a3bb61b13408be05a4ac72cba8a033a1",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "path": "/brand/tanyretail-wordmark.svg",
+      "sha256": "da7249b0669ee5846e1305405f2dc797e942851b3e4d027540b1be4b42f4e022",
+      "width": 225,
+      "height": 44
+    },
+    {
+      "path": "/brand/tanysalon-icon.svg",
+      "sha256": "9850db3fe1770920861388b0b1278d493bc7577945054b2a1044d88e731ae38f",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "path": "/brand/tanysalon-wordmark.svg",
+      "sha256": "0f9554da5c56f9691ae961dd074c353c05ce67c5bec3410ac7dc879aac1b1eb7",
+      "width": 229,
+      "height": 44
+    },
+    {
+      "path": "/brand/tanysport-icon.svg",
+      "sha256": "117ab2c2f6bab0cb14f423c0084809b3ca233166eece68c5237efc54a0ed4921",
+      "width": 240,
+      "height": 240
+    },
+    {
+      "path": "/brand/tanysport-wordmark.svg",
+      "sha256": "7d36de81a11d35b384140338d35ca4e39f75accd0997ce9b5ea685612e56801e",
+      "width": 232,
+      "height": 41
+    },
+    {
+      "path": "/brand/tany-icon.png",
+      "sha256": "d8c5f97932ec81117fb161a83a8c40c4bcde75f5b7adac10d88b434c5bd61941",
+      "width": 320,
+      "height": 320
+    },
+    {
+      "path": "https://tany.in/brand/tany-logo.png",
+      "sha256": "79accb44a9eb4be184e83253db13984c5a14545b5f1b868e948716a938af8079",
+      "width": 916,
+      "height": 320
+    }
+  ]
+}

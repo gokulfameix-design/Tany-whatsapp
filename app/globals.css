@@ -1,26 +1,182 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* Tany font files and theme tokens are copied from https://tany.in/. */
+@font-face {
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url(/fonts/space-grotesk-vietnamese.woff2) format("woff2");
+  unicode-range:
+    U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301,
+    U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB;
 }
+@font-face {
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url(/fonts/space-grotesk-latin-ext.woff2) format("woff2");
+  unicode-range:
+    U+100-2BA, U+2BD-2C5, U+2C7-2CC, U+2CE-2D7, U+2DD-2FF, U+304, U+308, U+329,
+    U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4,
+    U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: Space Grotesk;
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url(/fonts/space-grotesk-latin.woff2) format("woff2");
+  unicode-range:
+    U+??, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329,
+    U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: Space Grotesk Fallback;
+  src: local(Arial);
+  ascent-override: 89.71%;
+  descent-override: 26.62%;
+  line-gap-override: 0%;
+  size-adjust: 109.69%;
+}
+
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: "Space Grotesk", "Space Grotesk Fallback";
   --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-sans);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-success: var(--success);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  --font-sans: "Space Grotesk", "Space Grotesk Fallback";
+  --brand: #e5270b;
+  --logo-tanymotos: #7e2a0c;
+  --logo-tanymotos-fg: #ffb86a;
+  --logo-tanyeats: #004f3b;
+  --logo-tanyeats-fg: #5ee9b5;
+  --logo-tanycabs: #861043;
+  --logo-tanycabs-fg: #fda5d5;
+  --logo-tanyecom: #4d179a;
+  --logo-tanyecom-fg: #c4b4ff;
+  --logo-tanyexpert: #721378;
+  --logo-tanyexpert-fg: #f4a8ff;
+  --logo-tanygaming: #104e64;
+  --logo-tanygaming-fg: #53eafd;
+  --logo-tanygarage: #35530e;
+  --logo-tanygarage-fg: #bbf451;
+  --logo-tanymeat: #82181a;
+  --logo-tanymeat-fg: #ffa2a2;
+  --logo-tanymeds: #0b4f4a;
+  --logo-tanymeds-fg: #46ecd5;
+  --logo-tanyretail: #1c398e;
+  --logo-tanyretail-fg: #8ec5ff;
+  --logo-tanysalon: #59168b;
+  --logo-tanysalon-fg: #dab2ff;
+  --logo-tanysport: #0d542b;
+  --logo-tanysport-fg: #7bf1a8;
+  --ground-tanymotos: #ffedd4;
+  --ground-tanyeats: #d0fae5;
+  --ground-tanycabs: #fce7f3;
+  --ground-tanyecom: #ede9fe;
+  --ground-tanyexpert: #fae8ff;
+  --ground-tanygaming: #cefafe;
+  --ground-tanygarage: #ecfcca;
+  --ground-tanymeat: #ffe2e2;
+  --ground-tanymeds: #cbfbf1;
+  --ground-tanyretail: #dbeafe;
+  --ground-tanysalon: #f3e8ff;
+  --ground-tanysport: #dcfce7;
+  --background: #fff;
+  --foreground: #09090b;
+  --card: #fff;
+  --card-foreground: #09090b;
+  --popover: #fff;
+  --popover-foreground: #09090b;
+  --primary: #e5270b;
+  --primary-foreground: #fff;
+  --secondary: #f4f4f5;
+  --secondary-foreground: #18181b;
+  --muted: #f4f4f5;
+  --muted-foreground: #71717b;
+  --accent: #f4f4f5;
+  --accent-foreground: #18181b;
+  --destructive: #e40014;
+  --success: #008138;
+  --border: #e4e4e7;
+  --input: #e4e4e7;
+  --ring: #9f9fa9;
+  --chart-1: #d4d4d8;
+  --chart-2: #71717b;
+  --chart-3: #52525c;
+  --chart-4: #3f3f46;
+  --chart-5: #27272a;
+  --radius: 0.625rem;
+  --sidebar: #fafafa;
+  --sidebar-foreground: #09090b;
+  --sidebar-primary: #e5270b;
+  --sidebar-primary-foreground: #fff;
+  --sidebar-accent: #f4f4f5;
+  --sidebar-accent-foreground: #18181b;
+  --sidebar-border: #e4e4e7;
+  --sidebar-ring: #9f9fa9;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
   }
 }
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  body {
+    font-family: var(--font-sans);
+  }
 }

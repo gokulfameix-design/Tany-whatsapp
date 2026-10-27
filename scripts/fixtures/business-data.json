@@ -1,0 +1,980 @@
+{
+  "eats": {
+    "settings": {},
+    "catalog": [
+      {
+        "id": "chicken biriyani",
+        "type": "product",
+        "name": "Chicken Biriyani",
+        "description": "Demo fixture",
+        "price": 180,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "chicken biriyani",
+            "chicken biryani",
+            "biriyani",
+            "biryani"
+          ],
+          "veg": false,
+          "preparationTime": 20,
+          "sortOrder": 0
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "mutton biriyani",
+        "type": "product",
+        "name": "Mutton Biriyani",
+        "description": "Demo fixture",
+        "price": 250,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "mutton biriyani",
+            "mutton biryani"
+          ],
+          "veg": false,
+          "preparationTime": 20,
+          "sortOrder": 1
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "dosa",
+        "type": "product",
+        "name": "Dosa",
+        "description": "Demo fixture",
+        "price": 60,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "dosa"
+          ],
+          "veg": true,
+          "preparationTime": 20,
+          "sortOrder": 2
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "idli",
+        "type": "product",
+        "name": "Idli",
+        "description": "Demo fixture",
+        "price": 40,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "idli"
+          ],
+          "veg": true,
+          "preparationTime": 20,
+          "sortOrder": 3
+        },
+        "createdAt": null,
+        "updatedAt": null
+      }
+    ]
+  },
+  "salon": {
+    "settings": {
+      "staff": {
+        "any": "Any Stylist",
+        "arun": "Arun",
+        "priya": "Priya"
+      }
+    },
+    "catalog": [
+      {
+        "id": "haircut",
+        "type": "service",
+        "name": "Haircut",
+        "description": "Demo fixture",
+        "price": 300,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "durationMinutes": 30,
+          "staffIds": [
+            "arun",
+            "priya"
+          ],
+          "aliases": [
+            "haircut",
+            "hair cut"
+          ],
+          "sortOrder": 0
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "beard_trim",
+        "type": "service",
+        "name": "Beard Trim",
+        "description": "Demo fixture",
+        "price": 150,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "durationMinutes": 20,
+          "staffIds": [
+            "arun",
+            "priya"
+          ],
+          "aliases": [
+            "beard",
+            "beard trim"
+          ],
+          "sortOrder": 1
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "haircut_beard",
+        "type": "service",
+        "name": "Haircut + Beard",
+        "description": "Demo fixture",
+        "price": 400,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "durationMinutes": 45,
+          "staffIds": [
+            "arun",
+            "priya"
+          ],
+          "aliases": [
+            "haircut and beard",
+            "haircut + beard",
+            "hair cut and beard",
+            "haircut & beard"
+          ],
+          "sortOrder": 2
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "hair_spa",
+        "type": "service",
+        "name": "Hair Spa",
+        "description": "Demo fixture",
+        "price": 800,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "durationMinutes": 60,
+          "staffIds": [
+            "arun",
+            "priya"
+          ],
+          "aliases": [
+            "hair spa"
+          ],
+          "sortOrder": 3
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "facial",
+        "type": "service",
+        "name": "Facial",
+        "description": "Demo fixture",
+        "price": 1000,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "durationMinutes": 60,
+          "staffIds": [
+            "arun",
+            "priya"
+          ],
+          "aliases": [
+            "facial"
+          ],
+          "sortOrder": 4
+        },
+        "createdAt": null,
+        "updatedAt": null
+      }
+    ]
+  },
+  "motos": {
+    "settings": {},
+    "catalog": [
+      {
+        "id": "creta_2021",
+        "type": "vehicle",
+        "name": "Hyundai Creta 2021",
+        "description": "Demo fixture",
+        "price": 1150000,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "id": "creta_2021",
+          "brand": "Hyundai",
+          "model": "Creta",
+          "year": 2021,
+          "variant": "SX",
+          "transmission": "Automatic",
+          "price": 1150000,
+          "bodyType": "suv",
+          "sortOrder": 0
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "nexon_2019",
+        "type": "vehicle",
+        "name": "Tata Nexon 2019",
+        "description": "Demo fixture",
+        "price": 725000,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "id": "nexon_2019",
+          "brand": "Tata",
+          "model": "Nexon",
+          "year": 2019,
+          "variant": "XZ+",
+          "transmission": "Manual",
+          "price": 725000,
+          "bodyType": "suv",
+          "sortOrder": 1
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "baleno_2022",
+        "type": "vehicle",
+        "name": "Maruti Baleno 2022",
+        "description": "Demo fixture",
+        "price": 840000,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "id": "baleno_2022",
+          "brand": "Maruti",
+          "model": "Baleno",
+          "year": 2022,
+          "variant": "Alpha",
+          "transmission": "Automatic",
+          "price": 840000,
+          "bodyType": "hatchback",
+          "sortOrder": 2
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "seltos_2020",
+        "type": "vehicle",
+        "name": "Kia Seltos 2020",
+        "description": "Demo fixture",
+        "price": 1075000,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "id": "seltos_2020",
+          "brand": "Kia",
+          "model": "Seltos",
+          "year": 2020,
+          "variant": "HTX",
+          "transmission": "Automatic",
+          "price": 1075000,
+          "bodyType": "suv",
+          "sortOrder": 3
+        },
+        "createdAt": null,
+        "updatedAt": null
+      }
+    ]
+  },
+  "retail": {
+    "settings": {},
+    "catalog": [
+      {
+        "id": "tshirt",
+        "type": "product",
+        "name": "T-Shirt",
+        "description": "Demo fixture",
+        "price": 499,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "t-shirt",
+            "t shirt",
+            "tshirt"
+          ],
+          "variants": [
+            "S Black",
+            "M Black",
+            "L Black",
+            "S Blue",
+            "M Blue",
+            "L Blue"
+          ],
+          "stock": 100,
+          "sortOrder": 0
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "jeans",
+        "type": "product",
+        "name": "Jeans",
+        "description": "Demo fixture",
+        "price": 999,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "jeans"
+          ],
+          "variants": [
+            "30 Blue",
+            "32 Blue",
+            "34 Blue",
+            "30 Black",
+            "32 Black",
+            "34 Black"
+          ],
+          "stock": 100,
+          "sortOrder": 1
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "shoes",
+        "type": "product",
+        "name": "Shoes",
+        "description": "Demo fixture",
+        "price": 1499,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "shoes",
+            "shoe"
+          ],
+          "variants": [
+            "7 Black",
+            "8 Black",
+            "9 Black",
+            "7 White",
+            "8 White",
+            "9 White"
+          ],
+          "stock": 100,
+          "sortOrder": 2
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "bag",
+        "type": "product",
+        "name": "Bag",
+        "description": "Demo fixture",
+        "price": 799,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "bag"
+          ],
+          "variants": [
+            "Black",
+            "Brown"
+          ],
+          "stock": 100,
+          "sortOrder": 3
+        },
+        "createdAt": null,
+        "updatedAt": null
+      }
+    ]
+  },
+  "ecom": {
+    "settings": {
+      "quoteSettings": {
+        "estimateMultiplier": 1,
+        "maxBudgetPerItem": 1000000,
+        "maxQuantity": 10000
+      }
+    },
+    "catalog": [
+      {
+        "id": "gifts",
+        "type": "category",
+        "name": "Gifts",
+        "description": "Demo fixture",
+        "price": 0,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "gifts",
+            "gift",
+            "return gifts"
+          ],
+          "sortOrder": 0
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "pooja",
+        "type": "category",
+        "name": "Pooja",
+        "description": "Demo fixture",
+        "price": 0,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "pooja",
+            "puja"
+          ],
+          "sortOrder": 1
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "home",
+        "type": "category",
+        "name": "Home",
+        "description": "Demo fixture",
+        "price": 0,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "home"
+          ],
+          "sortOrder": 2
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "fashion",
+        "type": "category",
+        "name": "Fashion",
+        "description": "Demo fixture",
+        "price": 0,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "fashion"
+          ],
+          "sortOrder": 3
+        },
+        "createdAt": null,
+        "updatedAt": null
+      }
+    ]
+  },
+  "meds": {
+    "settings": {},
+    "catalog": [
+      {
+        "id": "paracetamol",
+        "type": "product",
+        "name": "Paracetamol",
+        "description": "Demo fixture",
+        "price": 20,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "paracetamol"
+          ],
+          "otc": true,
+          "sortOrder": 0
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "ors",
+        "type": "product",
+        "name": "ORS",
+        "description": "Demo fixture",
+        "price": 25,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "ors"
+          ],
+          "otc": true,
+          "sortOrder": 1
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "vitamin_c",
+        "type": "product",
+        "name": "Vitamin C",
+        "description": "Demo fixture",
+        "price": 100,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "vitamin c"
+          ],
+          "otc": true,
+          "sortOrder": 2
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "bandage",
+        "type": "product",
+        "name": "Bandage",
+        "description": "Demo fixture",
+        "price": 30,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "bandage",
+            "bandages"
+          ],
+          "otc": true,
+          "sortOrder": 3
+        },
+        "createdAt": null,
+        "updatedAt": null
+      }
+    ]
+  },
+  "meat": {
+    "settings": {},
+    "catalog": [
+      {
+        "id": "chicken",
+        "type": "product",
+        "name": "Chicken",
+        "description": "Demo fixture",
+        "price": 250,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "chicken"
+          ],
+          "variants": [
+            "Curry Cut",
+            "Small Cut",
+            "Boneless"
+          ],
+          "sortOrder": 0
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "mutton",
+        "type": "product",
+        "name": "Mutton",
+        "description": "Demo fixture",
+        "price": 850,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "mutton"
+          ],
+          "variants": [
+            "Curry Cut",
+            "Small Cut",
+            "Boneless"
+          ],
+          "sortOrder": 1
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "fish",
+        "type": "product",
+        "name": "Fish",
+        "description": "Demo fixture",
+        "price": 400,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "fish"
+          ],
+          "variants": [
+            "Curry Cut",
+            "Small Cut"
+          ],
+          "sortOrder": 2
+        },
+        "createdAt": null,
+        "updatedAt": null
+      }
+    ]
+  },
+  "garage": {
+    "settings": {},
+    "catalog": [
+      {
+        "id": "general",
+        "type": "service",
+        "name": "General Service",
+        "description": "Demo fixture",
+        "price": 1500,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "general service",
+            "general"
+          ],
+          "durationMinutes": 60,
+          "resourceType": "garage",
+          "resourceId": "general",
+          "resourceName": "General Service",
+          "sortOrder": 0
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "oil",
+        "type": "service",
+        "name": "Oil Change",
+        "description": "Demo fixture",
+        "price": 800,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "oil change",
+            "oil"
+          ],
+          "durationMinutes": 60,
+          "resourceType": "garage",
+          "resourceId": "oil",
+          "resourceName": "Oil Change",
+          "sortOrder": 1
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "brake",
+        "type": "service",
+        "name": "Brake Check",
+        "description": "Demo fixture",
+        "price": 600,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "brake check",
+            "brake"
+          ],
+          "durationMinutes": 60,
+          "resourceType": "garage",
+          "resourceId": "brake",
+          "resourceName": "Brake Check",
+          "sortOrder": 2
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "ac",
+        "type": "service",
+        "name": "AC Service",
+        "description": "Demo fixture",
+        "price": 1200,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "ac service",
+            "ac"
+          ],
+          "durationMinutes": 60,
+          "resourceType": "garage",
+          "resourceId": "ac",
+          "resourceName": "AC Service",
+          "sortOrder": 3
+        },
+        "createdAt": null,
+        "updatedAt": null
+      }
+    ]
+  },
+  "expert": {
+    "settings": {},
+    "catalog": [
+      {
+        "id": "ca",
+        "type": "service",
+        "name": "CA Consultation",
+        "description": "Demo fixture",
+        "price": 1000,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "ca consultation",
+            "ca"
+          ],
+          "durationMinutes": 60,
+          "resourceType": "expert",
+          "resourceId": "ca",
+          "resourceName": "CA Consultation",
+          "sortOrder": 0
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "legal",
+        "type": "service",
+        "name": "Legal Consultation",
+        "description": "Demo fixture",
+        "price": 1500,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "legal consultation",
+            "legal"
+          ],
+          "durationMinutes": 60,
+          "resourceType": "expert",
+          "resourceId": "legal",
+          "resourceName": "Legal Consultation",
+          "sortOrder": 1
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "business",
+        "type": "service",
+        "name": "Business Consultation",
+        "description": "Demo fixture",
+        "price": 1200,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "business consultation",
+            "business"
+          ],
+          "durationMinutes": 60,
+          "resourceType": "expert",
+          "resourceId": "business",
+          "resourceName": "Business Consultation",
+          "sortOrder": 2
+        },
+        "createdAt": null,
+        "updatedAt": null
+      }
+    ]
+  },
+  "gaming": {
+    "settings": {},
+    "catalog": [
+      {
+        "id": "ps5",
+        "type": "service",
+        "name": "PS5",
+        "description": "Demo fixture",
+        "price": 200,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "ps5",
+            "playstation"
+          ],
+          "durationMinutes": 60,
+          "resourceType": "gaming",
+          "resourceId": "ps5",
+          "resourceName": "PS5",
+          "sortOrder": 0
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "xbox",
+        "type": "service",
+        "name": "Xbox",
+        "description": "Demo fixture",
+        "price": 150,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "xbox"
+          ],
+          "durationMinutes": 60,
+          "resourceType": "gaming",
+          "resourceId": "xbox",
+          "resourceName": "Xbox",
+          "sortOrder": 1
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "racing",
+        "type": "service",
+        "name": "Racing Simulator",
+        "description": "Demo fixture",
+        "price": 300,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "racing simulator",
+            "racing"
+          ],
+          "durationMinutes": 60,
+          "resourceType": "gaming",
+          "resourceId": "racing",
+          "resourceName": "Racing Simulator",
+          "sortOrder": 2
+        },
+        "createdAt": null,
+        "updatedAt": null
+      }
+    ]
+  },
+  "sport": {
+    "settings": {},
+    "catalog": [
+      {
+        "id": "badminton",
+        "type": "service",
+        "name": "Badminton Court",
+        "description": "Demo fixture",
+        "price": 500,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "badminton court",
+            "badminton"
+          ],
+          "durationMinutes": 60,
+          "resourceType": "sport",
+          "resourceId": "badminton",
+          "resourceName": "Mock Badminton Court",
+          "sortOrder": 0
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "cricket",
+        "type": "service",
+        "name": "Cricket Turf",
+        "description": "Demo fixture",
+        "price": 1000,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "cricket turf",
+            "cricket"
+          ],
+          "durationMinutes": 60,
+          "resourceType": "sport",
+          "resourceId": "cricket",
+          "resourceName": "Mock Cricket Turf",
+          "sortOrder": 1
+        },
+        "createdAt": null,
+        "updatedAt": null
+      },
+      {
+        "id": "fitness",
+        "type": "service",
+        "name": "Fitness Class",
+        "description": "Demo fixture",
+        "price": 300,
+        "available": true,
+        "category": null,
+        "metadata": {
+          "aliases": [
+            "fitness class",
+            "fitness"
+          ],
+          "durationMinutes": 60,
+          "resourceType": "sport",
+          "resourceId": "fitness",
+          "resourceName": "Mock Fitness Class",
+          "sortOrder": 2
+        },
+        "createdAt": null,
+        "updatedAt": null
+      }
+    ]
+  },
+  "cabs": {
+    "settings": {
+      "vehicleTypes": [
+        {
+          "id": "auto",
+          "name": "Auto",
+          "price": 50,
+          "baseFare": 50
+        },
+        {
+          "id": "mini",
+          "name": "Mini",
+          "price": 80,
+          "baseFare": 80
+        },
+        {
+          "id": "sedan",
+          "name": "Sedan",
+          "price": 120,
+          "baseFare": 120
+        },
+        {
+          "id": "suv",
+          "name": "SUV",
+          "price": 180,
+          "baseFare": 180
+        }
+      ]
+    },
+    "catalog": []
+  }
+}

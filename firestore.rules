@@ -1,0 +1,10 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // This service uses server-side Admin SDK access only. Firebase Auth is client-side;
+    // identity/session/customer writes must never be possible from a web SDK.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
